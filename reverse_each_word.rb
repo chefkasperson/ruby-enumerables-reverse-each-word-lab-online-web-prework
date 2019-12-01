@@ -7,6 +7,9 @@ def reverse_each_word(phrase)
   #   z << x
   # i += 1 
   # end
+  y.collect {|a| 
+  a.reverse
+  z << a}
   q = z.join(" ")
   puts q
   q

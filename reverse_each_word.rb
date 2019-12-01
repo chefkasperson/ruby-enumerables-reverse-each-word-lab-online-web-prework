@@ -9,4 +9,5 @@ def reverse_each_word(phrase)
   end
   q = z.join(" ")
   puts q
+  q
 end

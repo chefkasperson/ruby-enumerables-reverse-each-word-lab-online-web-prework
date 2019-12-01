@@ -1,4 +1,4 @@
- def 
+def reverse_each_word(phrase)
   y = phrase.split(" ")
   z = []
   i = 0
@@ -9,3 +9,4 @@
   end
   q = z.join(" ")
   puts q
+end

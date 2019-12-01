@@ -8,8 +8,8 @@ def reverse_each_word(phrase)
   # i += 1 
   # end
   y.collect {|a| 
-  a.reverse
-  z << a}
+  x = a.reverse
+  z << x}
   q = z.join(" ")
   puts q
   q
